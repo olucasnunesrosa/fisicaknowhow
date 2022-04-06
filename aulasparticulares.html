@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<meta http-equiv="X-UA-Compatible" content="ie.edge">
+		
+		<title>Aulas Particulares</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="general-style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+	</head>
+
+<!--Todo o site.-->
+<body>
+	<!--Cabeçalho.-->
+	<header>	
+		<h1>Física Know How</h1>
+	</header>
+
+	<!--Menu de navegação principal.-->
+	<main>
+		<nav>
+			<h2>
+				<ul class="menuprincipal">
+					<li><a href="index.html">Home</a></li>
+					<!--<li><a href="aulasparticulares.html">Aulas Particulares</a></li>-->
+					<li><a href="resolucoesdeprovas.html">Resoluções de Provas</a></li>
+				</ul>
+			</h2>
+		</nav>
+	</main>
+
+	<!--Formulário de aulas particulares do cliente.-->
+	<form>
+		<h3 class="títulodoformulário">Formulário</h3>
+		<p class="objetivodoformulário">Se você está interessado em ter aulas particulares, preencha o formulário abaixo para que eu possa saber um pouco mais sobre você. Com seus dados em mãos, entrarei em contato o mais breve possível.</p>
+
+		<label for="nomecompleto">Nome completo:</label>
+		<input type="text" id="nomecompleto" class="input-padrão" required>
+
+		<label for="idade">Idade:</label>
+		<input type="text" id="idade" class="input-padrão" required>
+
+		<label for="e-mail">E-mail:</label>
+		<input type="email" id="e-mail" class="input-padrão" required placeholder="seuemail@domínio.com">
+
+		<label for="númerodewhatsapp">Número de WhatsApp:</label>
+		<input type="tel" id="númerodewhatsapp" class="input-padrão" required placeholder="+XX (XX) X XXXX-XXXX">
+
+		<p>Em qual disciplina você tem interesse?</p>
+		<select>
+			<option selected disabled value="">Selecione</option>
+			<option>Física</option>
+			<option>Matemática</option>
+			<option>Inglês</option>
+			<option>Espanhol</option>
+		</select required>
+
+		<p>Grau de formação</p>
+		<select>
+			<option selected disabled value="">Selecione</option>
+			<option>Ensino fundamental incompleto</option>
+			<option>Ensino fundamental (cursando)</option>
+			<option>Ensino fundamental completo</option>
+			<option>Ensino médio incompleto</option>
+			<option>Ensino médio (cursando)</option>
+			<option>Ensino médio completo</option>
+			<option>Graduação (licenciatura ou bacharelado) incompleto</option>
+			<option>Graduação (licenciatura ou bacharelado) (cursando)</option>
+			<option>Graduação (licenciatura ou bacharelado) completo</option>
+			<option>Mestrado incompleto</option>
+			<option>Mestrado (cursando)</option>
+			<option>Mestrado completo</option>
+			<option>Doutorado incompleto</option>
+			<option>Doutorado (cursando)</option>
+			<option>Doutorado completo</option>
+		</select required>
+
+		<label for="objetivodasaulas">Descreva o objetivo das aulas:</label>
+		<textarea cols="30" rows="10" id="objetivodasaulas" class="input-padrão" required></textarea>
+
+		<label for="horasdeaulaporsemana">Quantas horas de aula por semana você acha necessário?</label>
+		<input type="text" id="horasdeaulaporsemana" class="input-padrão" required>
+
+		<input type="submit" value="Enviar formulário" class="enviarformulário">
+	</form>
+
+	<!--Rodapé.-->
+	<footer>
+		<a href="http://lattes.cnpq.br/6948493407050977"><img id="logotipos" src="logolattes.png"></a>
+		<a href="https://www.youtube.com/channel/UCT3orkTXDz8tudU7cF43AuQ"><img id="logotipos" src="logoyoutube.png"></a>
+		<a href="https://www.instagram.com/fisicaknowhow/"><img id="logotipos" src="logoinstagram.png"></a>
+		<a href="https://www.facebook.com/proflucasnunes/"><img id="logotipos" src="logofacebook.png"></a>
+		
+		<p class="copyright"> &copy; Copyright 2022 Física Know How</p>
+	</footer>
+	
+</body>
