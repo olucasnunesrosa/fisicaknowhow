@@ -102,12 +102,12 @@ form label, form p {
 
 /*Conteúdo da página: provas do ENEM.*/
 .enem-provas {
+	color: #FFFF00;
 	font-size: 20px;
 	font-weight: bold;
 }
 
 .enem-provas li {
-	color: #FFFF00;
 	padding-right: 10px;
 	display: inline;
 }
