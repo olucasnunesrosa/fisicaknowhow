@@ -1,0 +1,110 @@
+
+/*Design para todo o site.*/
+body {
+	background: #1C1C1C;
+	width: 940px;
+	margin: 0 auto;
+	font-family: 'Lato', sans-serif;
+}
+
+/*Cabeçalho.*/
+header {
+	color: #4169E1;
+	font-size: 4em;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+/*Menu de navegação principal.*/
+.menuprincipal {
+	position: absolute;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.menuprincipal li {
+	color: #FFFFFF;
+	margin-bottom: 15px;
+}
+
+nav a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #4169E1;
+}
+
+/*Conteúdo da página: bloco de contatos + descrição.*/
+#parquedoretiromadrid26022022 {
+	float: left;
+	width: 25%;
+	margin: 0 15px 15px 0;
+	margin-left: 55%;
+	opacity: 1;
+}
+
+#parquedoretiromadrid26022022:hover {
+	opacity: 0.8;
+	transition: 300ms;
+}
+
+.contatos {
+	color: #FF8C00;
+	font-size: 1.7em;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.listadecontatos li {
+	color: #FFFFFF;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.listadecontatos li:before {
+	color: #FF8C00;
+	font-size: 20px;
+	margin-right: 10px;
+	content: "\2605";
+}
+
+.descrição {
+	clear: left;
+	color: #FFFFFF;
+	font-size: 20px;
+	text-align: justify;
+	line-height: normal;
+	max-width: 415px;
+	margin-left: 55%;
+}
+
+.descrição em {
+	font-style: italic;
+}
+
+/*Rodapé.*/
+footer {
+	text-align: center;
+  	line-height: normal;
+  	padding-top: 50px;
+  	padding-bottom: 10px;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 0.8em;
+}
+
+#logotipos {
+	display: inline;
+	width: 20px;
+	margin-bottom: 5px;
+}
+
+#logotipos:hover {
+	width: 22px;
+}
