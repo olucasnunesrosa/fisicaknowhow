@@ -1,0 +1,394 @@
+/*Design para todo o site.*/
+body {
+	background: #1C1C1C;
+	width: 940px;
+	margin: 0 auto;
+	font-family: 'Lato', sans-serif;
+}
+
+
+/*Cabeçalho.*/
+header {
+	color: #4169E1;
+	font-size: 4em;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+
+/*Menu de navegação principal.*/
+.menuprincipal {
+	position: absolute;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.menuprincipal li {
+	color: #FFFFFF;
+	margin-bottom: 15px;
+}
+
+nav a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #4169E1;
+}
+
+
+/*Menu de provas.*/
+.menudeprovas {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: right;
+}
+
+.menudeprovas li {
+	color: #FFFFFF;
+	margin-bottom: 15px;
+}
+
+
+/*Conteúdo da página: formulário de aulas particulares do cliente.*/
+form {
+	color: #FFFFFF;
+	margin-left: 55%;
+}
+
+.títulodoformulário {
+	color: #FF8C00;
+	font-size: 1.7em;
+	font-weight: bold;
+}
+
+.objetivodoformulário {
+	color: #FFFFFF;
+	text-align: justify;
+	line-height: normal;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 73%;
+}
+
+form label, form p {
+	display: block;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.input-padrão, select {
+	margin-bottom: 20px;
+	display: block;
+	padding: 5px;
+	width: 70%;
+}
+
+.enviarformulário {
+	background: #FF8C00;
+	font-weight: bold;
+	font-size: 1em;
+	width: 70%;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	transition: 0.1s all;
+	cursor: pointer;
+}
+
+.enviarformulário:hover {
+	transform: scale(1.03);
+	background: #D2691E;
+}
+
+
+/*Conteúdo da página de produções bibliográficas.*/
+.producoesbibliograficas {
+	margin-top: 250px;
+}
+
+.producoesbibliograficas h3 {
+	font-size: 1.6em;
+	color: #FF8C00;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+
+section div:before {
+	font-size: 1.2em;
+	color: #FF8C00;
+	content: "\2605";
+}
+
+.producoesbibliograficas div {
+	font-size: 1.2em;
+}
+
+.producoesbibliograficas a {
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.referências {
+	font-size: 16px;
+	margin-bottom: 50px;
+}
+
+.referências em {
+	font-style: italic;
+}
+
+.referências b {
+	font-weight: bold;
+}
+
+
+/*Conteúdo da página: provas do ENEM.*/
+.enem-provas {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.enem-provas li {
+	padding-right: 10px;
+	display: inline;
+}
+
+.enem-provas li a {
+	text-decoration: none;
+}
+
+
+/*Conteúdo da página: provas da FUVEST.*/
+.fuvest-provas {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.fuvest-provas li {
+	padding-right: 10px;
+	display: inline;
+}
+
+.fuvest-provas li a {
+	text-decoration: none;
+}
+
+
+/*Conteúdo da página: provas do ITA.*/
+.ita-provas {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.ita-provas li {
+	padding-right: 10px;
+	display: inline;
+}
+
+.ita-provas li a {
+	text-decoration: none;
+}
+
+
+/*Conteúdo da página: provas do IME.*/
+.ime-provas {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.ime-provas li {
+	padding-right: 10px;
+	display: inline;
+}
+
+.ime-provas li a {
+	text-decoration: none;
+}
+
+
+/*Conteúdo da página: provas da UERJ.*/
+.uerj-provas {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.uerj-provas li {
+	padding-right: 10px;
+	display: inline;
+}
+
+.uerj-provas li a {
+	text-decoration: none;
+}
+
+
+/*Conteúdo da página: provas da UNICAMP.*/
+.unicamp-provas {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.unicamp-provas li {
+	padding-right: 10px;
+	display: inline;
+}
+
+.unicamp-provas li a {
+	text-decoration: none;
+}
+
+
+/*Conteúdo da página: provas da AFA.*/
+.afa-provas {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.afa-provas li {
+	padding-right: 10px;
+	display: inline;
+}
+
+.afa-provas li a {
+	text-decoration: none;
+}
+
+
+/*Conteúdo da página: provas da EEAr.*/
+.eear-provas {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.eear-provas li {
+	padding-right: 10px;
+	display: inline;
+}
+
+.eear-provas li a {
+	text-decoration: none;
+}
+
+
+/*Conteúdo da página: provas da EsPCEx.*/
+.espcex-provas {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.espcex-provas li {
+	padding-right: 10px;
+	display: inline;
+}
+
+.espcex-provas li a {
+	text-decoration: none;
+}
+
+
+/*Conteúdo da página: provas do ENADE.*/
+.enade-provas {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.enade-provas li {
+	padding-right: 10px;
+	display: inline;
+}
+
+.enade-provas li a {
+	text-decoration: none;
+}
+
+
+/*Conteúdo da página: provas do CPII.*/
+.cpii-provas {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.cpii-provas li {
+	padding-right: 10px;
+	display: inline;
+}
+
+.cpii-provas li a {
+	text-decoration: none;
+}
+
+
+/*Conteúdo da página: provas do PPGEC MP UFOP.*/
+.ppgecmpufop-provas {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.ppgecmpufop-provas li {
+	padding-right: 10px;
+	display: inline;
+}
+
+.ppgecmpufop-provas li a {
+	text-decoration: none;
+}
+
+
+/*Conteúdo da página: provas + vídeos do YouTube.*/
+section {
+	color: #FFFFFF;
+	font-size: 20px;
+	line-height: normal;
+	text-align: center;
+	margin-top: 30px;
+}
+
+section h4 {
+	font-size: 1.6em;
+	color: #FF8C00;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+section a {
+	font-size: 20px;
+	text-decoration: none;
+}
+
+section ul li {
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+section ul p {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+/*Rodapé.*/
+footer {
+	text-align: center;
+  	line-height: normal;
+  	padding-top: 50px;
+  	padding-bottom: 10px;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 0.8em;
+}
+
+#logotipos {
+	display: inline;
+	width: 20px;
+	margin-bottom: 5px;
+}
+
+#logotipos:hover {
+	width: 22px;
+}
