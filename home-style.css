@@ -1,0 +1,122 @@
+
+/*Código do design de todas as páginas do site.*/
+body {
+	background: #1C1C1C; /*Cor de fundo do site.*/
+	width: 940px; /*Largura máxima ocupada pelo site no dispositivo do usuário.*/
+	margin: 0 auto; /*Margem automática do site.*/
+	font-family: 'Lato', sans-serif; /*Fonte da letra utilizada em todo o site.*/
+}
+
+
+/*Código do design do cabeçalho de todas as páginas do site.*/
+header {
+	color: #4169E1; /*Cor da fonte utilizada no cabeçalho.*/
+	font-size: 5em; /*Tamanho da fonte utilizada no cabeçalho.*/
+	text-align: center; /*Cabeçalho alinhado ao centro da página.*/
+	font-weight: bold; /*A fonte do cabeçalho está em negrito.*/
+	margin-top: 40px; /*O cabeçalho terá uma margem superior de 40 pixels.*/
+	margin-bottom: 80px; /*O cabeçalho terá uma margem inferior de 80 pixels.*/
+}
+
+
+/*Código do design do menu de navegação principal.*/
+.menuprincipal {
+	position: absolute; /*A posição do menu principal é absoluta em relação a todo o site.*/
+	font-size: 2em;  /*Tamanho da fonte do menu principal.*/
+	font-weight: bold; /*A fonte do menu principal está em negrito.*/
+}
+
+
+.menuprincipal li {
+	margin-bottom: 20px; /*Margem inferior de todos os elementos da lista de navegação do menu principal.*/
+}
+
+
+nav a {
+	color: #FFFFFF; /*Cor da fonte de todos os elementos da lista de navegação do menu principal E da lista de todos os elementos da lista de contatos.*/
+	text-decoration: none; /*Os links não terão decoração de links.*/
+}
+
+
+nav a:hover {
+	color: #4169E1; /*Quando o mouse passar por cima de todos os links do site, a fonte terá a cor #4169E1.*/
+}
+
+
+/*Código do design do bloco de contatos + descrição (na página "Home").*/
+#parquedoretiromadrid26022022 {
+	float: left; /*A minha foto permitirá que eu insira elementos ao lado direito dela*/
+	width: 25%; /*A minha foto terá um tamanho máximo de 25% da página do usuário*/
+	margin: 0 15px 15px 55%; /* A minha foto terá 0px de margem superior, 15xp de margem à direita, 15px de margem inferior e 55% de margem à esquerda*/
+}
+
+
+#parquedoretiromadrid26022022:hover {
+	opacity: 0.8; /*Quando o mouse estiver por cima da minha foto, a imagem terá uma opacidade de valor 0.8*/
+	transition: 300ms; /*Esta é a velocidade da mudança de opacidade*/
+}
+
+
+.contatos {
+	color: #FF8C00; /*Esta é a cor da fonte do título do bloco de contatos*/
+	font-size: 2em; /*Este é o tamanho da fonte do título do bloco de contatos*/
+	font-weight: bold; /*A fonte do título do bloco de contatos está em negrito*/
+	margin-bottom: 20px;  /*O título do bloco de contatos possui uma margem inferior de 20px*/
+}
+
+
+.listadecontatos li {
+	font-size: 1.3em; /*Este é o tamanho da fonte de todos os elementos da lista de contatos*/
+	margin-bottom: 5px; /*Todos os elemtnos da lista do bloco de contatos terão uma margem inferior de 5px*/
+}
+
+
+.listadecontatos li:before {
+	content: "\2605"; /*Antes de todos os elementos da lista de contatos aparecerá o símbolo de "estrelinha".*/
+	color: #FF8C00; /*Esta é a cor de todas as estrelinhas*/
+	font-size: 1.1em; /*Este é o tamanho de todas as estrelinhas.*/
+	margin-right: 10px; /*Todas as estrelinhas terão uma margem à direita de 10px.*/
+}
+
+
+.descrição {
+	clear: left; /*Este código faz com que o texto da descrição não permita um elemento à sua esquerda.*/
+	color: #FFFFFF; /*Esta é a cor da fonte do texto de descrição.*/
+	font-size: 1.3em; /*Este é o tamanho da fonte do texto de descrição.*/
+	text-align: justify; /*O texto de descrição está justificado nas laterais.*/
+	line-height: normal; /*Este é o expaçamento entre todas as linhas do texto de descrição.*/
+	max-width: 420px; /*O texto de descrição tem uma largura máxima de 420px.*/
+	margin-left: 55%; /*O texto de descrição tem uma margem à esquerda de 55%.*/
+}
+
+
+.descrição em {
+	font-style: italic; /*Todos os elementos que estiverem entre <em></em> estarão em itálico*/
+}
+
+
+/*Código do design de rodapé de todas as páginas do site*/
+footer {
+	text-align: center; /*O rodapé está alinhado ao centro*/
+  	line-height: normal; /*Este é o expaçamento entre todas as linhas do rodapé.*/
+  	padding-top: 50px; /*O rodapé tem uma margem interna de 50px.*/
+  	padding-bottom: 20px; /*O rodapé tem uma margem interna de 20px.*/
+}
+
+
+.copyright {
+	color: #FFFFFF; /*Esta é a cor da fonte do texto do rodapé.*/
+	font-size: 1em;  /*Este é o tamanho do texto da fonte do rodapé.*/
+}
+
+
+#logotipos {
+	display: inline; /*Todas as imagens do rodapé possuem display inline.*/
+	width: 20px; /*Todas as imagens do rodapé possuem largura de 20px.*/
+	margin-bottom: 5px; /*Todas as imagens do rodapé possuem uma margem inferior de 5px.*/
+}
+
+
+#logotipos:hover {
+	width: 22px; /*Quando o mouse passar por cima de uma imagem do rodapé, ela terá largura de 22px.*/
+}
