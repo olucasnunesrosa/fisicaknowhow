@@ -155,6 +155,8 @@ section div:before {
 
 /*Código do design dos anos das provas.*/
 .anosdasprovas {
+	position: absolute;
+	top: 450px; /*Os anos das provas estão localizados 450px abaixo do topo da página.*/
 	font-size: 1.3em; /*Este é o tamanho da fonte dos anos das provas.*/
 	font-weight: bold; /*Os anos das provas estão em negrito.*/
 }
