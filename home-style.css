@@ -44,14 +44,14 @@ nav a:hover {
 
 
 /*Código do design do bloco de contatos + descrição (na página "Home").*/
-#parquedoretiromadrid26022022 {
+#madrid130320222 {
 	float: left; /*A minha foto permitirá que eu insira elementos ao lado direito dela*/
 	width: 25%; /*A minha foto terá um tamanho máximo de 25% da página do usuário*/
 	margin: 0 15px 15px 55%; /* A minha foto terá 0px de margem superior, 15xp de margem à direita, 15px de margem inferior e 55% de margem à esquerda*/
 }
 
 
-#parquedoretiromadrid26022022:hover {
+#madrid130320222:hover {
 	opacity: 0.8; /*Quando o mouse estiver por cima da minha foto, a imagem terá uma opacidade de valor 0.8*/
 	transition: 300ms; /*Esta é a velocidade da mudança de opacidade*/
 }
