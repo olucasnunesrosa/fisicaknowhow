@@ -1,0 +1,230 @@
+/*Código do design de todas as páginas do site.*/
+body {
+	background: #1C1C1C; /*Cor de fundo do site.*/
+	width: 940px; /*Largura máxima ocupada pelo site no dispositivo do usuário.*/
+	margin: 0 auto; /*Margem automática do site.*/
+	font-family: 'Lato', sans-serif; /*Fonte da letra utilizada em todo o site.*/
+}
+
+
+/*Código do design do cabeçalho de todas as páginas do site.*/
+header {
+	color: #4169E1; /*Cor da fonte utilizada no cabeçalho.*/
+	font-size: 5em; /*Tamanho da fonte utilizada no cabeçalho.*/
+	text-align: center; /*Cabeçalho alinhado ao centro da página.*/
+	font-weight: bold; /*A fonte do cabeçalho está em negrito.*/
+	margin-top: 40px; /*O cabeçalho terá uma margem superior de 40 pixels.*/
+	margin-bottom: 80px; /*O cabeçalho terá uma margem inferior de 80 pixels.*/
+}
+
+
+/*Código do design do menu de navegação principal.*/
+.menuprincipal {
+	position: absolute; /*A posição do menu principal é absoluta em relação a todo o site.*/
+	font-size: 2em;  /*Tamanho da fonte do menu principal.*/
+	font-weight: bold; /*A fonte do menu principal está em negrito.*/
+}
+
+
+.menuprincipal li {
+	margin-bottom: 20px; /*Margem inferior de todos os elementos da lista de navegação do menu principal.*/
+}
+
+
+nav a {
+	color: #FFFFFF; /*Cor da fonte de todos os elementos da lista de navegação do menu principal E da lista de todos os elementos da lista de contatos.*/
+	text-decoration: none; /*Os links não terão decoração de links.*/
+}
+
+
+nav a:hover {
+	color: #4169E1; /*Quando o mouse passar por cima de todos os links do site, a fonte terá a cor #4169E1.*/
+}
+
+
+/*Código do design do meu de provas.*/
+.menudeprovas {
+	font-size: 1.5em; /*Este é o tamanho da fonte de todos os elementos da lista do menu de provas.*/
+	font-weight: bold; /*A fonte de todos os elementos da lista do menu de provas está em negrito.*/
+	text-align: right; /*Todos os elementos da lista do menu de provas está alinhado à direita.*/
+}
+
+.menudeprovas li {
+	color: #FFFFFF; /*Esta é a cor da fonte de todos os elementos da lista do menu de provas.*/
+	margin-bottom: 15px; /*Todos os elementos da lista do menu de provas possuem uma margem inferior de 15px.*/
+}
+
+
+/*Código do design da página de formulário para aulas particulares.*/
+form {
+	color: #FFFFFF; /*Esta é a cor da fonte utilizada em todo o formulário.*/
+	margin-left: 55%; /*Todo o formulário possui uma margem à esquerda de 55%.*/
+}
+
+
+.títulodoformulário {
+	color: #FF8C00; /*Esta é a cor do título do formulário.*/
+	font-size: 2em; /*Este é o tamanho do título do formulário.*/
+	font-weight: bold; /*O título do formulário está em negrito.*/
+}
+
+
+.objetivodoformulário {
+	color: #FFFFFF; /*Esta é a cor da fonte do texto do objetivo do formulário.*/
+	text-align: justify; /*O texto do objetivo do formulário está justificado.*/
+	line-height: normal; /*Este é o espaçamento entre todas as linhas do texto do objetivo do formulário.*/
+	margin: 30px 0 30px 0; /*O texto do objetivo do formulário possui 30px de margem superior, 0px de margem à direita, 30px de margem inferior e 0px de margem à esquerda.*/
+	width: 73%; /*Todo o formulário ocupa 73%.*/
+}
+
+
+form label, form p {
+	display: block; /*As descrições de cada input do formulário estão com display inblock.*/
+	font-size: 1.3em; /*Este é o tamanho das descrições de cada input do formulário.*/
+	margin-bottom: 5px; /*Todas as descrições de cada input do formulário possui uma margem inferior de 5px.*/
+}
+
+
+.input-padrão, select {
+	margin-bottom: 20px; /*Todos os inputs têm uma margem inferior de 20px.*/
+	display: block; /*Todos os inputs estão com display inblock.*/
+	padding: 5px; /*Todos os inputs possuem uma margem inferior de 5px para todos os lados.*/
+	width: 70%; /*Todos os inputs possuem uma largura de 70% do tamanho da página.*/
+}
+
+
+.enviarformulário {
+	background: #FF8C00; /*Esta é a cor do background do botão do formulário.*/
+	font-weight: bold; /*O texto do botão do formulário está em negrito.*/
+	font-size: 1.3em; /*Este é o tamanho da fonte do texto do botão do formulário.*/
+	width: 70%; /*O botão do formulário possui um tamanho de 70% do tamanho da página.*/
+	padding: 10px; /*O botão do formulário possui uma margem interna de 10px para todos os lados.*/
+	border: none; /*O botão do formulário não tem borda.*/
+	border-radius: 5px; /*Os cantos do botão do formulário são arredondados com 5px de raio.*/
+	transition: 0.1s all; /*O botão do formulário tem um transition.*/
+	cursor: pointer; /*Quando o mouse estiver em cima do botão do formulário, o mouse mudará para "pointer".*/
+}
+
+
+.enviarformulário:hover {
+	transform: scale(1.03); /*Quando o mouse estiver por cima do botão, ele irá aumentar de tamanho.*/
+	background: #D2691E; /*Quandoo mouse estiver por cima do botão, ele irá mudar de cor.*/
+}
+
+
+/*Código do design da página de produções bibliográficas.*/
+.producoesbibliograficas {
+	margin-top: 350px; /*Todo o conteúdo desta página possuirá uma margem superior de 350px.*/
+}
+
+.producoesbibliograficas h3 {
+	font-size: 1.8em; /*Este é o tamanho da fonte da seção que indica cada tipo de publicação.*/
+	color: #FF8C00; /*Esta é a cor da fonte da seção que indica cada tipo de publicação.*/
+	font-weight: bold; /*A fonte da seção que indica cada tipo de publicação está em negrito.*/
+	margin-bottom: 50px; /*O texto da seção que indica cada tipo de publicação tem uma margem inferior de 50px.*/
+}
+
+section div:before {
+	content: "\2605"; /*Antes de cada publicação aparecerá uma "estrelinha".*/
+	font-size: 1.3em; /*Este é o tamanho das estrelinhas que aparecem antes de cada publicação.*/
+	color: #FF8C00; /*Esta é a cor das estrelinhas que aparecem antes de cada publicação.*/
+}
+
+.producoesbibliograficas div {
+	font-size: 1.3em; /*Este e o tamanho da fonte dos nomes de cada publicação.*/
+}
+
+.producoesbibliograficas a {
+	font-size: 0.9em; /*Este é o tamanho da fonte do link para acessar cada publicação.*/
+	text-decoration: none; /*A fonte do link de cada publicação não tem nenhuma decoração.*/
+}
+
+.referências {
+	font-size: 0.5em; /*Este é o tamanho da fonte de "como referenciar cada trabalho".*/
+	margin-bottom: 50px; /*A seção "como referenciar este trabalho" possuirá uma margem inferior de 50px.*/
+}
+
+.referências em {
+	font-style: italic; /*Todos os elementos que estiverem entre <em></em> estarão em itálico.*/
+}
+
+.referências b {
+	font-weight: bold; /*Todos os elementos que estiverem entre <b></b> estarão em negrito.*/
+}
+
+
+/*Código do design dos anos das provas.*/
+.anosdasprovas {
+	position: absolute;
+	top: 450px; /*Os anos das provas estão localizados 450px abaixo do topo da página.*/
+	font-size: 1.4em; /*Este é o tamanho da fonte dos anos das provas.*/
+	font-weight: bold; /*Os anos das provas estão em negrito.*/
+}
+
+.anosdasprovas li {
+	padding-right: 10px; /*Os anos das provas possuem um espaçamento interno de 10px para a direita.*/
+	display: inline; /*Os anos das provas estão com o display inline.*/
+}
+
+.anosdasprovas li a {
+	text-decoration: none; /*Os links dos anos das provas não possuem estilização de link.*/
+}
+
+
+/*Código do design da disposições dos vídeos de resolução.*/
+section {
+	color: #FFFFFF; /*Esta é a cor da fonte da seção de disposição das resoluções.*/
+	font-size: 1.3em; /*Este é o tamanho da fonte de toda esta seção.*/
+	line-height: normal; /*Este é o espaçamento entre as linhas de toda a seção de disposição das resoluções.*/
+	text-align: center; /*Toda a seção de disposição das resoluções está centralizada.*/
+	margin-top: 100px; /*O texto de nome da prova tem uma margem superior de 100px.*/
+}
+
+section h4 {
+	font-size: 1.6em; /*Este é o tamanho da fonte do nome da prova.*/
+	color: #FF8C00; /*Esta é a cor da fonte do nome da prova.*/
+	font-weight: bold; /*A fonte do nome da prova está em negrito.*/
+	margin-bottom: 30px; /*O nome da prova possui uma margem inferior de 30px.*/
+}
+
+section a {
+	font-size: 1em; /*Este é o tamanho da fonte dos links de acesso às provas e aos gabaritos.*/
+	text-decoration: none; /*Os links de acesso às provas e aos gabaritos não possuem decoração de link.*/
+}
+
+section ul li {
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+section ul p {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+
+/*Código do design de rodapé de todas as páginas do site*/
+footer {
+	text-align: center; /*O rodapé está alinhado ao centro*/
+  	line-height: normal; /*Este é o expaçamento entre todas as linhas do rodapé.*/
+  	padding-top: 50px; /*O rodapé tem uma margem interna de 50px.*/
+  	padding-bottom: 20px; /*O rodapé tem uma margem interna de 20px.*/
+}
+
+
+.copyright {
+	color: #FFFFFF; /*Esta é a cor da fonte do texto do rodapé.*/
+	font-size: 1em;  /*Este é o tamanho do texto da fonte do rodapé.*/
+}
+
+
+#logotipos {
+	display: inline; /*Todas as imagens do rodapé possuem display inline.*/
+	width: 20px; /*Todas as imagens do rodapé possuem largura de 20px.*/
+	margin-bottom: 5px; /*Todas as imagens do rodapé possuem uma margem inferior de 5px.*/
+}
+
+
+#logotipos:hover {
+	width: 22px; /*Quando o mouse passar por cima de uma imagem do rodapé, ela terá largura de 22px.*/
+}
